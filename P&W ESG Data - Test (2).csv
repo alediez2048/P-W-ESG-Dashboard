@@ -1,0 +1,501 @@
+Environmental Dimensions,Metric ID,Reporting Frameworks,Additional Frameworks,Metric Name,Units,Region,Year,Value Type,Performance,Baseline Year,% Change YoY,% Progress Target,Status Category,Data Quality Note,Comment,Additional Targets,Future (2030 Target)
+Basic Info,NA,NA,NA,Global Employees,Total Employees,Global,2022,Actual,"1,877.00",2022,,,,Per PowerBI from Murali,,NA,
+Basic Info,NA,NA,NA,Global Employees,Total Employees,Global,2023,Actual,"2,515.00",2022,,,,Climate Smart,,NA,
+Basic Info,NA,NA,NA,Global Employees,Total Employees,Global,2024,Actual,"2,501.00",2022,,,,Carbonhound,,NA,
+Basic Info,NA,NA,NA,Total Area,sf,Global,2022,Actual,"508,650.00",2022,,,,Per PowerBI from Murali,,NA,
+Basic Info,NA,NA,NA,Total Area,sf,Global,2023,Actual,"459,653.00",2022,,,,Climate Smart,,NA,
+Basic Info,NA,NA,NA,Total Area,sf,Global,2024,Actual,"501,620.59",2022,,,,Carbonhound,,NA,
+Energy & Emissions,ENERGY_001,GRI 302,WGBC NZCB,Total Energy Consumption,M kBtu,Global,2022,Actual,41.48,2022,,,,Reviewed by PWC,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_001,GRI 302,WGBC NZCB,Total Energy Consumption,M kBtu,Global,2023,Actual,32.7,2022,,,,Data Reviewed by BMO Climate Smart,2023 data from PW does not align with Sidara's annual report [December 2024] for the following reasons: 1. Data error corrected see appendix for details. 2. PW undertook employee commute and work from home to benchmark 2023-2024 scope 3 emissions which goes above and above Sidara's emissions reporting.,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_001,GRI 302,WGBC NZCB,Total Energy Consumption,M kBtu,Global,2024,Actual,30.16,2022,,,,Data Reviewed by Sidara and PW,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_001,GRI 302,WGBC NZCB,Total Energy Consumption,M kBtu,Global,2025,Target,,2022,,,,,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_001,GRI 302,WGBC NZCB,Total Energy Consumption,M kBtu,Global,2030,Target,60% Reduction from baseline,2022,,,,,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_002,GRI 302,WGBC NZCB,Energy Consumption per Capita,kBtu/person,Global,2022,Actual,"20,203.00",2022,,,,Reviewed by PWC,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_002,GRI 302,WGBC NZCB,Energy Consumption per Capita,kBtu/person,Global,2023,Actual,"13,002.00",2022,,,,Data Reviewed by BMO Climate Smart,2023 data from PW does not align with Sidara's annual report [December 2024] for the following reasons: 1. Data error corrected see appendix for details. 2. PW undertook employee commute and work from home to benchmark 2023-2024 scope 3 emissions which goes above and above Sidara's emissions reporting.,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_002,GRI 302,WGBC NZCB,Energy Consumption per Capita,kBtu/person,Global,2024,Actual,"12,059.58",2022,,,,Data Reviewed by Sidara and PW,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_002,GRI 302,WGBC NZCB,Energy Consumption per Capita,kBtu/person,Global,2025,Target,,2022,,,,,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_002,GRI 302,WGBC NZCB,Energy Consumption per Capita,kBtu/person,Global,2030,Target,60% Reduction from baseline,2022,,,,,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_003,GRI 302,WGBC NZCB,Average EUI,kBtu/sf/yr,Global,2022,Actual,83,2022,,,,Reviewed by PWC,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_003,GRI 302,WGBC NZCB,Average EUI,kBtu/sf/yr,Global,2023,Actual,71,2022,,,,Data Reviewed by BMO Climate Smart,2023 data from PW does not align with Sidara's annual report [December 2024] for the following reasons: 1. Data error corrected see appendix for details. 2. PW undertook employee commute and work from home to benchmark 2023-2024 scope 3 emissions which goes above and above Sidara's emissions reporting.,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_003,GRI 302,WGBC NZCB,Average EUI,kBtu/sf/yr,Global,2024,Actual,60.1,2022,,,,Data Reviewed by Sidara and PW,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_003,GRI 302,WGBC NZCB,Average EUI,kBtu/sf/yr,Global,2025,Target,,2022,,,,,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_003,GRI 302,WGBC NZCB,Average EUI,kBtu/sf/yr,Global,2030,Target,60% Reduction from baseline,2022,,,,,,"Starting in 2023, all new office locations will meet 2030 Challenge Benchmarks as a requirement of lease. (Per Operations Plan)
+- Starting in 2025, all offices will install sub-meters that measure all energy within the office and show a year-to-year annual energy use less than 35 kbtu/sf/yr (Per Decarbonization Plan)
+- Starting in 2025 all offices will have Energy Star for all office equipment (Per Decarbonization Plan)
+- Develop an energy conservation action and implementation plan based on feedback from monitoring-based commissioning or ongoing commissioning (Per Operations Plan)
+- Conduct annual energy audits (Per Operations Plan)",60% energy reduction from 2022 baseline
+Energy & Emissions,ENERGY_004,GRI 302,NA,Total Energy Consumption per Region,kBtu/sf,North America,2022,Actual,83,2022,,,,Reviewed by PWC,,,
+Energy & Emissions,ENERGY_004,GRI 302,NA,Total Energy Consumption per Region,kBtu/sf,North America,2023,Actual,73.12,2022,,,,Data Reviewed by BMO Climate Smart,2023 data from PW does not align with Sidara's annual report [December 2024] for the following reasons: 1. Data error corrected see appendix for details. 2. PW undertook employee commute and work from home to benchmark 2023-2024 scope 3 emissions which goes above and above Sidara's emissions reporting.,,
+Energy & Emissions,ENERGY_004,GRI 302,NA,Total Energy Consumption per Region,kBtu/sf,North America,2024,Actual,62.32,2022,,,,Data Reviewed by Sidara and PW,,,
+Energy & Emissions,ENERGY_004,GRI 302,NA,Total Energy Consumption per Region,kBtu/sf,North America,2025,Target,,2022,,,,,,,
+Energy & Emissions,ENERGY_004,GRI 302,NA,Total Energy Consumption per Region,kBtu/sf,North America,2030,Target,,2022,,,,,,,
+Energy & Emissions,ENERGY_005,GRI 303,NA,Total Energy Consumption per Region,kBtu/sf,LATAM,2022,Actual,TBD,2022,,,,Reviewed by PWC,,,
+Energy & Emissions,ENERGY_005,GRI 303,NA,Total Energy Consumption per Region,kBtu/sf,LATAM,2023,Actual,61.32,2022,,,,Data Reviewed by BMO Climate Smart,2023 data from PW does not align with Sidara's annual report [December 2024] for the following reasons: 1. Data error corrected see appendix for details. 2. PW undertook employee commute and work from home to benchmark 2023-2024 scope 3 emissions which goes above and above Sidara's emissions reporting.,,
+Energy & Emissions,ENERGY_005,GRI 303,NA,Total Energy Consumption per Region,kBtu/sf,LATAM,2024,Actual,58.46,2022,,,,Data Reviewed by Sidara and PW,,,
+Energy & Emissions,ENERGY_005,GRI 303,NA,Total Energy Consumption per Region,kBtu/sf,LATAM,2025,Target,,2022,,,,,,,
+Energy & Emissions,ENERGY_005,GRI 303,NA,Total Energy Consumption per Region,kBtu/sf,LATAM,2030,Target,,2022,,,,,,,
+Energy & Emissions,ENERGY_006,GRI 304,NA,Total Energy Consumption per Region,kBtu/sf,Europe,2022,Actual,82,2022,,,,Reviewed by PWC,,,
+Energy & Emissions,ENERGY_006,GRI 304,NA,Total Energy Consumption per Region,kBtu/sf,Europe,2023,Actual,68.33,2022,,,,Data Reviewed by BMO Climate Smart,2023 data from PW does not align with Sidara's annual report [December 2024] for the following reasons: 1. Data error corrected see appendix for details. 2. PW undertook employee commute and work from home to benchmark 2023-2024 scope 3 emissions which goes above and above Sidara's emissions reporting.,,
+Energy & Emissions,ENERGY_006,GRI 304,NA,Total Energy Consumption per Region,kBtu/sf,Europe,2024,Actual,46.8,2022,,,,Data Reviewed by Sidara and PW,,,
+Energy & Emissions,ENERGY_006,GRI 304,NA,Total Energy Consumption per Region,kBtu/sf,Europe,2025,Target,,2022,,,,,,,
+Energy & Emissions,ENERGY_006,GRI 304,NA,Total Energy Consumption per Region,kBtu/sf,Europe,2030,Target,,2022,,,,,,,
+Energy & Emissions,ENERGY_007,GRI 305,NA,Total Energy Consumption per Region,kBtu/sf,APAC,2022,Actual,83,2022,,,,Reviewed by PWC,,,
+Energy & Emissions,ENERGY_007,GRI 305,NA,Total Energy Consumption per Region,kBtu/sf,APAC,2023,Actual,35.9,2022,,,,Data Reviewed by BMO Climate Smart,2023 data from PW does not align with Sidara's annual report [December 2024] for the following reasons: 1. Data error corrected see appendix for details. 2. PW undertook employee commute and work from home to benchmark 2023-2024 scope 3 emissions which goes above and above Sidara's emissions reporting.,,
+Energy & Emissions,ENERGY_007,GRI 305,NA,Total Energy Consumption per Region,kBtu/sf,APAC,2024,Actual,31.69,2022,,,,Data Reviewed by Sidara and PW,,,
+Energy & Emissions,ENERGY_007,GRI 305,NA,Total Energy Consumption per Region,kBtu/sf,APAC,2025,Target,,2022,,,,,,,
+Energy & Emissions,ENERGY_007,GRI 305,NA,Total Energy Consumption per Region,kBtu/sf,APAC,2030,Target,,2022,,,,,,,
+Energy & Emissions,ENERGY_008,GRI 302,NA,Total Energy Consumption from Renewable Sources,kWh,Global,2022,Actual,"6,703.37",2022,,,,,,"Starting in 2023, all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2025, all new and renewing offices will include on-site renewable energy, accounting for at least 50% of office energy use on an annual basis (Per Operations Plan)",TBD3
+Energy & Emissions,ENERGY_008,GRI 302,NA,Total Energy Consumption from Renewable Sources,kWh,Global,2023,Actual,0.00,2022,,,,Data Reviewed by PW,,"Starting in 2023, all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2025, all new and renewing offices will include on-site renewable energy, accounting for at least 50% of office energy use on an annual basis (Per Operations Plan)",TBD4
+Energy & Emissions,ENERGY_008,GRI 302,NA,Total Energy Consumption from Renewable Sources,kWh,Global,2024,Actual,"29,479.00",2022,,,,Data Reviewed by PW,,"Starting in 2023, all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2025, all new and renewing offices will include on-site renewable energy, accounting for at least 50% of office energy use on an annual basis (Per Operations Plan)",TBD5
+Energy & Emissions,ENERGY_008,GRI 302,NA,Total Energy Consumption from Renewable Sources,kWh,Global,2025,Target,,2022,,,,,,"Starting in 2023, all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2025, all new and renewing offices will include on-site renewable energy, accounting for at least 50% of office energy use on an annual basis (Per Operations Plan)",TBD6
+Energy & Emissions,ENERGY_008,GRI 302,NA,Total Energy Consumption from Renewable Sources,kWh,Global,2030,Target,,2022,,,,,,"Starting in 2023, all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2025, all new and renewing offices will include on-site renewable energy, accounting for at least 50% of office energy use on an annual basis (Per Operations Plan)",TBD7
+Energy & Emissions,ENERGY_009,GRI 302,NA,Types of Energy Included in The Intensity Ratio,NA,Global,2022,Actual,Fossil Fuel and Electricity,2022,,,,,,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.
+Energy & Emissions,ENERGY_009,GRI 302,NA,Types of Energy Included in The Intensity Ratio,NA,Global,2023,Actual,Fossil Fuel and Electricity,2022,,,,,,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.
+Energy & Emissions,ENERGY_009,GRI 302,NA,Types of Energy Included in The Intensity Ratio,NA,Global,2024,Actual,Fossil Fuel and Electricity,2022,,,,,,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.
+Energy & Emissions,ENERGY_009,GRI 302,NA,Types of Energy Included in The Intensity Ratio,NA,Global,2025,Target,All PW owned buildings will have transitioned off of fossil fuel by 2025,2022,,,,,,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.
+Energy & Emissions,ENERGY_009,GRI 302,NA,Types of Energy Included in The Intensity Ratio,NA,Global,2030,Target,,2022,,,,,,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.,For any new leases sign on 2025 work with landlords to phase off fossil fuel energy sources.
+Energy & Emissions,ENERGY_010,GRI 305,WGBC NZCB,Scope 1 GHG emissions,tCO2e,Global,2022,Actual,639.49,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_010,GRI 305,WGBC NZCB,Scope 1 GHG emissions,tCO2e,Global,2023,Actual,614.36,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_010,GRI 305,WGBC NZCB,Scope 1 GHG emissions,tCO2e,Global,2024,Actual,552.34,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_010,GRI 305,WGBC NZCB,Scope 1 GHG emissions,tCO2e,Global,2025,Target,,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_010,GRI 305,WGBC NZCB,Scope 1 GHG emissions,tCO2e,Global,2030,Target,100% reduction,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_011,GRI 306,WGBC NZCB,Scope 1 GHG emissions per capita,tCO2e/person,Global,2022,Actual,0.31,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_011,GRI 306,WGBC NZCB,Scope 1 GHG emissions per capita,tCO2e/person,Global,2023,Actual,0.24,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_011,GRI 306,WGBC NZCB,Scope 1 GHG emissions per capita,tCO2e/person,Global,2024,Actual,0.22,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_012,GRI 307,WGBC NZCB,"
+Scope 1 GHG emissions per area",tCO2e/sf,Global,2022,Actual,0.0012,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_012,GRI 307,WGBC NZCB,"
+Scope 1 GHG emissions per area",tCO2e/sf,Global,2023,Actual,0.0012,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_012,GRI 307,WGBC NZCB,"
+Scope 1 GHG emissions per area",tCO2e/sf,Global,2024,Actual,0.0011,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)",Eliminate Scope 1 emissions
+Energy & Emissions,ENERGY_013,GRI 305,WGBC NZCB,Scope 2 GHG emissions,tCO2e,Global,2022,Actual,"3,043.00",2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_013,GRI 305,WGBC NZCB,Scope 2 GHG emissions,tCO2e,Global,2023,Actual,"1,908.00",2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_013,GRI 305,WGBC NZCB,Scope 2 GHG emissions,tCO2e,Global,2024,Actual,"1,776.79",2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_013,GRI 305,WGBC NZCB,Scope 2 GHG emissions,tCO2e,Global,2025,Target,,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_013,GRI 305,WGBC NZCB,Scope 2 GHG emissions,tCO2e,Global,2030,Target,30% reduction from baseline,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_014,GRI 306,WGBC NZCB,Scope 2 GHG emissions per capita,tCO2e/person,Global,2022,Actual,1.48,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_014,GRI 306,WGBC NZCB,Scope 2 GHG emissions per capita,tCO2e/person,Global,2023,Actual,0.76,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_014,GRI 306,WGBC NZCB,Scope 2 GHG emissions per capita,tCO2e/person,Global,2024,Actual,0.71,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_015,GRI 307,WGBC NZCB,Scope 2 GHG emissions per area,tCO2e/sf,Global,2022,Actual,0.0059,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_015,GRI 307,WGBC NZCB,Scope 2 GHG emissions per area,tCO2e/sf,Global,2023,Actual,0.0038,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_015,GRI 307,WGBC NZCB,Scope 2 GHG emissions per area,tCO2e/sf,Global,2024,Actual,0.0035,2022,,,,,,"Starting in 2023, all new office spaces will be 100% electric for all uses - either directly within the building or via services from a central plant. Only backup power systems are excluded. All new leases must comply (Per Decarbonization Plan and Operations Plan)
+- Starting in 2023. all offices will investigate whether on-site renewables are possible for their office and propose a plan to integrate as much as feasible by 2025 (Per Decarbonization Plan)
+- Starting in 2023 all new studios and studio refurbishments will undertake a whole-life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs (Per Decarbonization Plan)
+- Starting 2023, all studios will procure 100% clean energy from utility providers for remaining electricity consumption. Where clean energy is not available, studios will be required to purchase green power renewable energy certificates (RECs) for remaining electricity use, meeting minimum of Green-E Standards (Per Operations Plan)
+- Starting in 2023, all new studios and studio refurbishments will undertake a whole life carbon assessment to measure the operational and embodied carbon profile of the studio. Life cycle assessments must be completed for all new construction and interior fit outs  (Per Decarbonization Plan) 
+- Starting in 2024, all renewing leased spaces will have transitioned off of fossil fuels or the office must re-locate to a new, fully electric space. (Per Decarbonization Plan and Operations Plan)
+- Starting in 2025 all new and renewing offices will include on site renewable energy accounting for at least 50% of office energy use on an annual basis. In some cases off-site will be allowed for renewing spaces (Per Decarbonization Plan)
+- All PW owned buildings will have transitioned off of fossil fuel by 2025. (Per Decarbonization Plan and Operations Plan)","Reduce Scope 2 emissions by 30% compared to 2022 baseline
+Continue to track reductions opportunities moving forward"
+Energy & Emissions,ENERGY_016,GRI 305,WGBC NZCB,Scope 3 GHG emissions,tCO2e,Global,2022,Actual,"1,165.00",2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_016,GRI 305,WGBC NZCB,Scope 3 GHG emissions,tCO2e,Global,2023,Actual,"2,518.00",2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_016,GRI 305,WGBC NZCB,Scope 3 GHG emissions,tCO2e,Global,2024,Actual,"2,875.91",2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_016,GRI 305,WGBC NZCB,Scope 3 GHG emissions,tCO2e,Global,2025,Target,,2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_016,GRI 305,WGBC NZCB,Scope 3 GHG emissions,tCO2e,Global,2030,Target,,2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_017,GRI 306,WGBC NZCB,Scope 3 GHG emissions per capita,tCO2e/person,Global,2022,Actual,0.5676,2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_017,GRI 306,WGBC NZCB,Scope 3 GHG emissions per capita,tCO2e/person,Global,2023,Actual,"2,518",2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_017,GRI 306,WGBC NZCB,Scope 3 GHG emissions per capita,tCO2e/person,Global,2024,Actual,"2,875.91",2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_018,GRI 307,WGBC NZCB,Scope 3 GHG emissions per area,tCO2e/sf,Global,2022,Actual,0.0022,2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_018,GRI 307,WGBC NZCB,Scope 3 GHG emissions per area,tCO2e/sf,Global,2023,Actual,0.0051,2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_018,GRI 307,WGBC NZCB,Scope 3 GHG emissions per area,tCO2e/sf,Global,2024,Actual,0.0057,2022,,,,,,Work with new GHG emissions platform to establish methodology and approach for tracking employee commute and remote work emissions,TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_019,GRI 305,WGBC NZCB,"Scope 1, 2, and 3 emissions",tCO2e,Global,2022,Actual,TBD,2022,,,,,,"Continue to offset 100% of residual Scope 1, 2, & 3 emissions with the highest performing offsets (4 or 5 rankings) as identified by the Carbon Credit Quality Initiative (CCQI) (Per Kathy Wardle)",TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_019,GRI 305,WGBC NZCB,"Scope 1, 2, and 3 emissions",tCO2e,Global,2023,Actual,"5,040.62",2022,,,,,,"Continue to offset 100% of residual Scope 1, 2, & 3 emissions with the highest performing offsets (4 or 5 rankings) as identified by the Carbon Credit Quality Initiative (CCQI) (Per Kathy Wardle)",TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_019,GRI 305,WGBC NZCB,"Scope 1, 2, and 3 emissions",tCO2e,Global,2024,Actual,"5,205.04",2022,,,,,,"Continue to offset 100% of residual Scope 1, 2, & 3 emissions with the highest performing offsets (4 or 5 rankings) as identified by the Carbon Credit Quality Initiative (CCQI) (Per Kathy Wardle)",TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_019,GRI 305,WGBC NZCB,"Scope 1, 2, and 3 emissions",tCO2e,Global,2025,Target,,2022,,,,,,"Continue to offset 100% of residual Scope 1, 2, & 3 emissions with the highest performing offsets (4 or 5 rankings) as identified by the Carbon Credit Quality Initiative (CCQI) (Per Kathy Wardle)",TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_019,GRI 305,WGBC NZCB,"Scope 1, 2, and 3 emissions",tCO2e,Global,2030,Target,,2022,,,,,,"Continue to offset 100% of residual Scope 1, 2, & 3 emissions with the highest performing offsets (4 or 5 rankings) as identified by the Carbon Credit Quality Initiative (CCQI) (Per Kathy Wardle)",TBD3 (Sidara set Net zero Scope 1 & 2)
+Energy & Emissions,ENERGY_020,GRI 305 ,NA,GHG emissions reduced as a direct result of reduction initiatives,NA,Global,2022,Actual,Data collection methodologies under development,2022,,,,,,Track studios' performance to comply with 2022 Decarbonization Policy and Green Operations Policy (Per Kathy Wardle),TBD1
+Energy & Emissions,ENERGY_020,GRI 305 ,NA,GHG emissions reduced as a direct result of reduction initiatives,NA,Global,2023,Actual,Data collection methodologies under development,2022,,,,,,Track studios' performance to comply with 2022 Decarbonization Policy and Green Operations Policy (Per Kathy Wardle),TBD0
+Energy & Emissions,ENERGY_020,GRI 305 ,NA,GHG emissions reduced as a direct result of reduction initiatives,NA,Global,2024,Actual,Data collection methodologies under development,2022,,,,,,Track studios' performance to comply with 2022 Decarbonization Policy and Green Operations Policy (Per Kathy Wardle),TBD1
+Energy & Emissions,ENERGY_020,GRI 305 ,NA,GHG emissions reduced as a direct result of reduction initiatives,NA,Global,2025,Target,Data collection methodologies under development,2022,,,,,,Track studios' performance to comply with 2022 Decarbonization Policy and Green Operations Policy (Per Kathy Wardle),TBD2
+Energy & Emissions,ENERGY_020,GRI 305 ,NA,GHG emissions reduced as a direct result of reduction initiatives,NA,Global,2030,Target,Data collection methodologies under development,2022,,,,,,Track studios' performance to comply with 2022 Decarbonization Policy and Green Operations Policy (Per Kathy Wardle),TBD3
+Energy & Emissions,ENERGY_021,GRI 305 ,NA,Base year for the calculation with rationale,NA,Global,,Actual,2022,2022,,,,,,TBD3,TBD3
+Energy & Emissions,ENERGY_022,GRI 305,WGBC NZCB,"Consumption of Ozone Depleting Substances (ODS)
+GHG emissions of refrigerant consumption",,Global,2022,Actual,"Data collection methodologies under development.
+Scope 3 emissions for busines travel are lower than our 2019 and 2018 impact due greater uptake of virtual meetings.",2022,,,,,,"Set baseline, propose reduction strategies and targets",Achieve net-zero Scope 1 emissions for building refrigerants
+Energy & Emissions,ENERGY_022,GRI 305,WGBC NZCB,"Consumption of Ozone Depleting Substances (ODS)
+GHG emissions of refrigerant consumption",,Global,2023,Actual,"Data collection methodologies under development.
+Scope 3 emissions for busines travel are lower than our 2019 and 2018 impact due greater uptake of virtual meetings.",2022,,,,,,"Set baseline, propose reduction strategies and targets",Achieve net-zero Scope 1 emissions for building refrigerants
+Energy & Emissions,ENERGY_022,GRI 305,WGBC NZCB,"Consumption of Ozone Depleting Substances (ODS)
+GHG emissions of refrigerant consumption",,Global,2024,Actual,"Data collection methodologies under development.
+Scope 3 emissions for busines travel are lower than our 2019 and 2018 impact due greater uptake of virtual meetings.",2022,,,,,,"Set baseline, propose reduction strategies and targets",Achieve net-zero Scope 1 emissions for building refrigerants
+Energy & Emissions,ENERGY_022,GRI 305,WGBC NZCB,"Consumption of Ozone Depleting Substances (ODS)
+GHG emissions of refrigerant consumption",,Global,2025,Target,,2022,,,,,,"Set baseline, propose reduction strategies and targets",Achieve net-zero Scope 1 emissions for building refrigerants
+Energy & Emissions,ENERGY_022,GRI 305,WGBC NZCB,"Consumption of Ozone Depleting Substances (ODS)
+GHG emissions of refrigerant consumption",,Global,2030,Target,,2022,,,,,,"Set baseline, propose reduction strategies and targets",Achieve net-zero Scope 1 emissions for building refrigerants
+Energy & Emissions,ENERGY_023,GRI 305 ,,"GHG emissions from business 
+travel (Scope 3)",tCO2e,Global,2022,Actual,Data collection currently inconsistent;  methodology to be refined to improve accuracy,TBD,2022,2022,2022,,,"Set baseline, propose reduction strategies and targets",Reduce by 20% compared to baseline
+Energy & Emissions,ENERGY_023,GRI 305 ,,"GHG emissions from business 
+travel (Scope 3)",tCO2e,Global,2023,Actual,"1,248.20",TBD,,,,,,"Set baseline, propose reduction strategies and targets",Reduce by 20% compared to baseline
+Energy & Emissions,ENERGY_023,GRI 305 ,,"GHG emissions from business 
+travel (Scope 3)",tCO2e,Global,2024,Actual,2191.371,TBD,,,,,,"Set baseline, propose reduction strategies and targets",Reduce by 20% compared to baseline
+Energy & Emissions,ENERGY_023,GRI 305 ,,"GHG emissions from business 
+travel (Scope 3)",tCO2e,Global,2025,Target,,TBD,,,,,,"Set baseline, propose reduction strategies and targets",Reduce by 20% compared to baseline
+Energy & Emissions,ENERGY_023,GRI 305 ,,"GHG emissions from business 
+travel (Scope 3)",tCO2e,Global,2030,Target,20% reduction from baseline,TBD,,,,,,"Set baseline, propose reduction strategies and targets",Reduce by 20% compared to baseline
+Energy & Emissions,ENERGY_024,GRI 305 ,,"GHG emissions from employee 
+commute (Scope 3)",tCO2e,Global,2022,Actual,"Data collection methodologies under development 
+- Studios are now required to collect personal vehicles data and provide public transport subsidy to employee",TBD,,,,,,"Set baseline, propose reduction strategies and targets",TBD3
+Energy & Emissions,ENERGY_024,GRI 305 ,,"GHG emissions from employee 
+commute (Scope 3)",tCO2e,Global,2023,Actual,929,TBD,,,,,,"Set baseline, propose reduction strategies and targets",TBD4
+Energy & Emissions,ENERGY_024,GRI 305 ,,"GHG emissions from employee 
+commute (Scope 3)",tCO2e,Global,2024,Actual,929,TBD,,,,,,"Set baseline, propose reduction strategies and targets",TBD5
+Energy & Emissions,ENERGY_025,GRI 305 ,,GHG emissions from the supply  chain -  purchased goods and  services (Scope 3),tCO2e,Global,2022,Actual,Data collection methodologies under development,TBD,,,,,,"Set baseline, propose reduction strategies and targets",TBD6
+Energy & Emissions,ENERGY_025,GRI 305 ,,GHG emissions from the supply  chain -  purchased goods and  services (Scope 3),tCO2e,Global,2023,Actual,341,TBD,,,,,,"Set baseline, propose reduction strategies and targets",TBD7
+Energy & Emissions,ENERGY_025,GRI 305 ,,GHG emissions from the supply  chain -  purchased goods and  services (Scope 3),tCO2e,Global,2024,Actual,341,TBD,,,,,,"Set baseline, propose reduction strategies and targets",TBD8
+Water,ENERGY_026,GRI 303,,Total water consumption from all areas,gal,Global,2022,Actual,Data collection methodologies under development,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_026,GRI 303,,Total water consumption from all areas,gal,Global,2023,Actual,"4,543,030",TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_026,GRI 303,,Total water consumption from all areas,gal,Global,2024,Actual,"4,485,947",TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_026,GRI 303,,Total water consumption from all areas,gal,Global,2025,Target,,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_026,GRI 303,,Total water consumption from all areas,gal,Global,2030,Target,10% reduction from baseline,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_027,GRI 304,,Total water consumption from all areas with water stress,gal,Global,2022,Actual,Data collection methodologies under development,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_027,GRI 304,,Total water consumption from all areas with water stress,gal,Global,2023,Actual,"3,631,061",TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_027,GRI 304,,Total water consumption from all areas with water stress,gal,Global,2024,Actual,"3,398,532",TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_027,GRI 304,,Total water consumption from all areas with water stress,gal,Global,2025,Target,,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_027,GRI 304,,Total water consumption from all areas with water stress,gal,Global,2030,Target,10% reduction from baseline,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_028,GRI 305,,Total water consumption per capita,gal/person,Global,2022,Actual,Data collection methodologies under development,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_028,GRI 305,,Total water consumption per capita,gal/person,Global,2023,Actual,"2,038",TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_028,GRI 305,,Total water consumption per capita,gal/person,Global,2024,Actual,"1,952",TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_028,GRI 305,,Total water consumption per capita,gal/person,Global,2025,Target,,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Water,ENERGY_028,GRI 305,,Total water consumption per capita,gal/person,Global,2030,Target,10% reduction from baseline,TBD,,,,,,"Set baseline
+Intall only low-flow toilets and waterless urinals  (Per Operations Plan)
+All New Studios Larger than 50 people to provide filtered drinking water through a water bottle filling station or pantry sink (Per Operations Plan)
+Single-use plastic water containers are prohibited (Operations Plan)
+Starting in 2025 all offices will have low flow toilets, waterless urinals and efficient fixtures (Decarbonization Policy)",10% reduction compared to baseline
+Materials,ENERGY_029,GRI 306,,Total weight of waste generated,Tons of waste diverted from landfill,Global,2022,Actual,Data collection methodologies under development,TBD,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD3
+Materials,ENERGY_029,GRI 306,,Total weight of waste generated,Tons of waste diverted from landfill,Global,2023,Actual,97,,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD4
+Materials,ENERGY_029,GRI 306,,Total weight of waste generated,Tons of waste diverted from landfill,Global,2024,Actual,87,,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD5
+Materials,ENERGY_029,GRI 306,,Total weight of waste generated,Tons of waste diverted from landfill,Global,2025,Target,,,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD6
+Materials,ENERGY_029,GRI 306,,Total weight of waste generated,Tons of waste diverted from landfill,Global,2030,Target,,,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD7
+Materials,ENERGY_030,GRI 306,,Percentage of waste diverted from landfill,%,Global,2022,Actual,Data collection methodologies under development,TBD,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD3
+Materials,ENERGY_030,GRI 306,,Percentage of waste diverted from landfill,%,Global,2023,Actual,47%,,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD4
+Materials,ENERGY_030,GRI 306,,Percentage of waste diverted from landfill,%,Global,2024,Actual,51%,,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD5
+Materials,ENERGY_030,GRI 306,,Percentage of waste diverted from landfill,%,Global,2025,Target,,,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD6
+Materials,ENERGY_030,GRI 306,,Percentage of waste diverted from landfill,%,Global,2030,Target,,,,,,,,"Complete pilot audits 
+Identify major waste stream(s)
+Targeting functionally zero waste (95% diversion)  (Per Operations Plan)
+Provide Waste Management Policy Covering trash, recycling, and composting.(Per Operations Plan)
+No single-use plastics should be used, provided or available for purchase (Per Operations Plan)
+Internal and vendor catering should not contain plastic utensils  (Per Operations Plan)",TBD7
+Materials,ENERGY_031,GRI 305,,GHG emissions from operational waste (Scope 3),,Global,,,Data collection methodologies under development,TBD,,,,,,Set baseline,TBD3
+Biodiversity,ENERGY_032,GRI 304,,Nature direct or indirect impact on biodiversity ,,Global,,,Data collection methodologies under development,TBD,,,,,,Understanding what a biodiversity targets means for our business operations and establish a target for protecting biodiversity,TBD3
+Biodiversity,ENERGY_033,GRI 304,,Nature positive or negative impact on biodiversity,,Global,,,Data collection methodologies under development,TBD,,,,,,Understanding what a biodiversity targets means for our business operations and establish a target for protecting biodiversity,TBD3
+Biodiversity,ENERGY_034,GRI 304,,Total Number of IUCN Red List species and national conservation list species with habitats in areas affected by the operations of the organization by level of extinction risk,,Global,,,Data collection methodologies under development,TBD,,,,,,Understanding what a biodiversity targets means for our business operations and establish a target for protecting biodiversity,TBD3
