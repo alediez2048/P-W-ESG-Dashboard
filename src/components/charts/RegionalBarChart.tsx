@@ -31,7 +31,7 @@ export const RegionalBarChart: React.FC<RegionalBarChartProps> = ({ metric }) =>
                 contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
             />
             <Bar dataKey="value" radius={[0, 4, 4, 0]} barSize={24} fill="#6366f1">
-                {data.map((entry, index) => (
+                {data.map((_, index) => (
                     <Cell key={`cell-${index}`} fill={index === 0 ? '#4f46e5' : '#818cf8'} />
                 ))}
             </Bar>
