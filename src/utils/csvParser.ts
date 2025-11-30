@@ -19,7 +19,13 @@ const parseTarget = (targetStr: string, baseline: number): number | undefined =>
   return undefined;
 };
 
-export const parseESGData = async (url: string): Promise<ESGMetric[]> => {
+export const parseESGData = async (relativePath: string): Promise<ESGMetric[]> => {
+  // Construct the correct URL using Vite's base URL
+  const baseUrl = import.meta.env.BASE_URL;
+  // Remove leading slash from relativePath if present to avoid double slashes
+  const cleanPath = relativePath.startsWith('/') ? relativePath.slice(1) : relativePath;
+  const url = `${baseUrl}${cleanPath}`;
+
   console.log('Fetching CSV from:', url);
   try {
     const response = await fetch(url);

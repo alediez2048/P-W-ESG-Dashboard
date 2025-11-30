@@ -28,7 +28,8 @@ export const ESGProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   useEffect(() => {
     const loadData = async () => {
       try {
-        const data = await parseESGData('/esg_data.csv');
+        // Pass filename relative to public root
+        const data = await parseESGData('esg_data.csv');
         setMetrics(data);
         setLoading(false);
       } catch (err) {
