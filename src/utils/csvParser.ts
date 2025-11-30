@@ -38,7 +38,7 @@ export const parseESGData = async (url: string): Promise<ESGMetric[]> => {
           const data = results.data as any[];
           const metricsMap = new Map<string, ESGMetric>();
 
-          data.forEach((row, index) => {
+          data.forEach((row) => {
             // Simple validation
             if (!row['Metric Name'] && !row['Metric ID']) return;
 

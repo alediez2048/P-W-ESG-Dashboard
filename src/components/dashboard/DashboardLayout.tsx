@@ -1,4 +1,5 @@
-import React, { ReactNode, useState } from 'react';
+import React, { useState } from 'react';
+import type { ReactNode } from 'react';
 import { LayoutDashboard, Globe, Database, Menu, X } from 'lucide-react';
 import { clsx } from 'clsx';
 
