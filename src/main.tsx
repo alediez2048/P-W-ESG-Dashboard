@@ -23,6 +23,7 @@ class ErrorBoundary extends React.Component<{ children: React.ReactNode }, { has
         <div style={{ padding: 20, color: 'red' }}>
           <h1>Something went wrong.</h1>
           <pre>{this.state.error?.toString()}</pre>
+          <pre>{this.state.error?.stack}</pre>
         </div>
       );
     }
@@ -31,10 +32,18 @@ class ErrorBoundary extends React.Component<{ children: React.ReactNode }, { has
   }
 }
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <ErrorBoundary>
-      <App />
-    </ErrorBoundary>
-  </StrictMode>,
-)
+console.log('Mounting React App...');
+const rootElement = document.getElementById('root');
+
+if (!rootElement) {
+  console.error('Failed to find root element');
+} else {
+  console.log('Root element found, rendering...');
+  createRoot(rootElement).render(
+    <StrictMode>
+      <ErrorBoundary>
+        <App />
+      </ErrorBoundary>
+    </StrictMode>,
+  );
+}
