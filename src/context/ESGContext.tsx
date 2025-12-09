@@ -21,7 +21,7 @@ export const ESGProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [filter, setFilter] = useState<{ category: string | 'All'; region: string | 'Global' }>({
-    category: 'All',
+    category: 'Basic Info',
     region: 'Global',
   });
 

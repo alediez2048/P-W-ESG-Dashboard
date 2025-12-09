@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import type { ReactNode } from 'react';
-import { LayoutDashboard, Globe, Database, Menu, X } from 'lucide-react';
+import { LayoutDashboard, Globe, Database, Menu, X, Grid3x3 } from 'lucide-react';
 import { clsx } from 'clsx';
 
 interface DashboardLayoutProps {
   children: ReactNode;
-  activeTab: 'overview' | 'regional' | 'explorer';
-  onTabChange: (tab: 'overview' | 'regional' | 'explorer') => void;
+  activeTab: 'overview' | 'regional' | 'explorer' | 'everything';
+  onTabChange: (tab: 'overview' | 'regional' | 'explorer' | 'everything') => void;
 }
 
 export const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children, activeTab, onTabChange }) => {
@@ -14,6 +14,7 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children, acti
 
   const navItems = [
     { id: 'overview', label: 'Overview', icon: LayoutDashboard },
+    { id: 'everything', label: 'Everything', icon: Grid3x3 },
     { id: 'regional', label: 'Regional Analysis', icon: Globe },
     { id: 'explorer', label: 'Data Explorer', icon: Database },
   ] as const;
@@ -74,7 +75,9 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children, acti
       {/* Main Content */}
       <main className="flex-1 overflow-auto h-[calc(100vh-64px)] md:h-screen">
         <header className="bg-white border-b border-gray-200 py-4 px-8 hidden md:flex justify-between items-center sticky top-0 z-10">
-           <h2 className="text-2xl font-bold text-gray-800 capitalize">{activeTab === 'explorer' ? 'Data Explorer' : activeTab.replace('-', ' ')}</h2>
+           <h2 className="text-2xl font-bold text-gray-800 capitalize">
+             {activeTab === 'explorer' ? 'Data Explorer' : activeTab === 'everything' ? 'Everything' : activeTab.replace('-', ' ')}
+           </h2>
            <div className="flex items-center gap-4">
                <span className="text-sm text-gray-500">Last updated: Nov 2025</span>
            </div>
