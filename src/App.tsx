@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import { ESGProvider, useESGData } from './context/ESGContext';
 import { DashboardLayout } from './components/dashboard/DashboardLayout';
 import { Overview } from './components/views/Overview';
+import { Everything } from './components/views/Everything';
 import { Regional } from './components/views/Regional';
 import { Explorer } from './components/views/Explorer';
 import './index.css';
 
 const AppContent: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'overview' | 'regional' | 'explorer'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'regional' | 'explorer' | 'everything'>('overview');
   const { error, loading } = useESGData();
 
   if (error) {
@@ -37,6 +38,7 @@ const AppContent: React.FC = () => {
   return (
     <DashboardLayout activeTab={activeTab} onTabChange={setActiveTab}>
       {activeTab === 'overview' && <Overview />}
+      {activeTab === 'everything' && <Everything />}
       {activeTab === 'regional' && <Regional />}
       {activeTab === 'explorer' && <Explorer />}
     </DashboardLayout>
