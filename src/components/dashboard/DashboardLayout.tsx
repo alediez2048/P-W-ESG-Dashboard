@@ -82,7 +82,7 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children, acti
                <span className="text-sm text-gray-500">Last updated: Nov 2025</span>
            </div>
         </header>
-        <div className="p-4 md:p-8">
+        <div className="p-4 md:p-8 pb-16">
           {children}
         </div>
       </main>

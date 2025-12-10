@@ -54,9 +54,24 @@ export const TrendChart: React.FC<TrendChartProps> = ({ metric }) => {
               </linearGradient>
             </defs>
             <XAxis dataKey="year" />
-            <YAxis label={{ value: metric.unit, angle: -90, position: 'insideLeft', style: { textAnchor: 'middle' } }} />
+            <YAxis 
+              label={{ value: metric.unit, angle: -90, position: 'insideLeft', style: { textAnchor: 'middle' } }}
+              tickFormatter={(value) => {
+                if (typeof value === 'number') {
+                  return value.toLocaleString(undefined, { maximumFractionDigits: 0 });
+                }
+                return value;
+              }}
+            />
             <CartesianGrid strokeDasharray="3 3" vertical={false} />
-            <Tooltip />
+            <Tooltip 
+              formatter={(value: any) => {
+                if (typeof value === 'number') {
+                  return value.toLocaleString(undefined, { maximumFractionDigits: 2 });
+                }
+                return value;
+              }}
+            />
             <Legend />
             
             <Area 

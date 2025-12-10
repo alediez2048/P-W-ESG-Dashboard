@@ -24,11 +24,25 @@ export const RegionalBarChart: React.FC<RegionalBarChartProps> = ({ metric }) =>
         <ResponsiveContainer width="100%" height="100%">
             <BarChart data={data} layout="vertical" margin={{ top: 5, right: 30, left: 40, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" horizontal={false} vertical={true} />
-            <XAxis type="number" />
+            <XAxis 
+              type="number" 
+              tickFormatter={(value) => {
+                if (typeof value === 'number') {
+                  return value.toLocaleString(undefined, { maximumFractionDigits: 0 });
+                }
+                return value;
+              }}
+            />
             <YAxis dataKey="region" type="category" width={120} tick={{ fontSize: 12 }} />
             <Tooltip 
                 cursor={{ fill: '#f3f4f6' }}
                 contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
+                formatter={(value: any) => {
+                  if (typeof value === 'number') {
+                    return value.toLocaleString(undefined, { maximumFractionDigits: 2 });
+                  }
+                  return value;
+                }}
             />
             <Bar dataKey="value" radius={[0, 4, 4, 0]} barSize={24} fill="#6366f1">
                 {data.map((_, index) => (
