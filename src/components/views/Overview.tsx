@@ -3,6 +3,7 @@ import { useESGData } from '../../context/ESGContext';
 import { MetricCard } from '../ui/MetricCard';
 import { TrendChart } from '../charts/TrendChart';
 import { TargetGauge } from '../charts/TargetGauge';
+import { OfficeMap } from '../maps/OfficeMap';
 
 export const Overview: React.FC = () => {
   const { metrics, loading, filter, setFilter } = useESGData();
@@ -73,6 +74,11 @@ export const Overview: React.FC = () => {
                 </button>
             ))}
         </div>
+
+        {/* Global Office Map - Only show on Summary dashboard */}
+        {filter.category === 'Basic Info' && (
+            <OfficeMap />
+        )}
 
         {/* KPI Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

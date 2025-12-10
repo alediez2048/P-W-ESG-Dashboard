@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ESGProvider, useESGData } from './context/ESGContext';
+import { OfficeProvider } from './context/OfficeContext';
 import { DashboardLayout } from './components/dashboard/DashboardLayout';
 import { Overview } from './components/views/Overview';
 import { Everything } from './components/views/Everything';
@@ -48,7 +49,9 @@ const AppContent: React.FC = () => {
 const App: React.FC = () => {
   return (
     <ESGProvider>
-      <AppContent />
+      <OfficeProvider>
+        <AppContent />
+      </OfficeProvider>
     </ESGProvider>
   );
 };

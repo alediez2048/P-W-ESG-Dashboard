@@ -9,12 +9,10 @@ interface TrendChartProps {
 export const TrendChart: React.FC<TrendChartProps> = ({ metric }) => {
   const data = [...metric.dataPoints].sort((a, b) => a.year - b.year);
   const target2030 = metric.targets[2030];
-  const currentValue = data.length > 0 ? data[data.length - 1].value : 0;
 
-  // Highlight chart in red if current value is 0 (data not accurate/decision not made)
-  const isZeroValue = currentValue === 0;
-  const chartBorderColor = isZeroValue ? "border-red-500 border-2" : "border-gray-100";
-  const chartBgColor = isZeroValue ? "bg-red-50" : "bg-white";
+  // No flags on the graph itself - normal styling only
+  const chartBorderColor = "border-gray-100";
+  const chartBgColor = "bg-white";
 
   const chartData: any[] = data.map(d => ({
     year: d.year,
@@ -41,12 +39,7 @@ export const TrendChart: React.FC<TrendChartProps> = ({ metric }) => {
 
   return (
     <div className={`h-[350px] w-full p-6 rounded-xl shadow-sm border ${chartBorderColor} ${chartBgColor} flex flex-col`}>
-      {isZeroValue && (
-        <div className="mb-2 px-2 py-1 bg-red-100 border border-red-300 rounded text-xs text-red-700 font-medium">
-          ⚠️ Data not available - Decision pending
-        </div>
-      )}
-      <h3 className={isZeroValue ? "text-lg font-semibold text-red-600 mb-1" : "text-lg font-semibold text-gray-900 mb-1"}>
+      <h3 className="text-lg font-semibold text-gray-900 mb-1">
         {metric.name}
       </h3>
       <p className="text-sm text-gray-500 mb-4">Progress towards 2030 Target</p>
