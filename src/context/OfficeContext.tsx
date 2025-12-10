@@ -12,6 +12,16 @@ interface OfficeContextType {
 
 const OfficeContext = createContext<OfficeContextType | undefined>(undefined);
 
+// Helper to load cache from localStorage
+const loadCache = (): Record<string, { lat: number; lng: number }> => {
+  try {
+    const cached = localStorage.getItem('office_geocoding_cache');
+    return cached ? JSON.parse(cached) : {};
+  } catch {
+    return {};
+  }
+};
+
 export const OfficeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [offices, setOffices] = useState<Office[]>([]);
   const [loading, setLoading] = useState(true);
@@ -24,15 +34,27 @@ export const OfficeProvider: React.FC<{ children: ReactNode }> = ({ children }) 
         setLoading(true);
         // Load initial data from CSV
         const initialOffices = await parseOfficeData('office_data.csv');
-        setOffices(initialOffices);
         
-        // Start geocoding in background
+        // Immediately populate cached coordinates so map shows right away
+        const cache = loadCache();
+        const officesWithCache = initialOffices.map(office => {
+          if (cache[office.name]) {
+            return { ...office, coordinates: cache[office.name] };
+          }
+          return office;
+        });
+        
+        // Show map immediately with cached offices
+        setOffices(officesWithCache);
+        setLoading(false);
+        
+        // Geocode remaining offices in background
         const geocodedOffices = await batchGeocodeOffices(initialOffices, (progress) => {
             setGeocodingProgress(progress);
         });
         
+        // Update with all geocoded results
         setOffices(geocodedOffices);
-        setLoading(false);
       } catch (err) {
         console.error('Failed to load office data:', err);
         setError('Failed to load office locations');
