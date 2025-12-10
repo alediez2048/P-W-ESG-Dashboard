@@ -4,6 +4,7 @@ import { MetricCard } from '../ui/MetricCard';
 import { TrendChart } from '../charts/TrendChart';
 import { TargetGauge } from '../charts/TargetGauge';
 import { OfficeMap } from '../maps/OfficeMap';
+import { StackedEmissionsChart } from '../charts/StackedEmissionsChart';
 
 export const Overview: React.FC = () => {
   const { metrics, loading, filter, setFilter } = useESGData();
@@ -60,6 +61,12 @@ export const Overview: React.FC = () => {
     });
   }
 
+  // Get Scope 1, 2, and 3 emissions for stacked chart
+  const scope1 = metrics.find(m => m.id === 'ENERGY_010' || m.name === 'Scope 1 GHG emissions');
+  const scope2 = metrics.find(m => m.id === 'ENERGY_013' || m.name === 'Scope 2 GHG emissions');
+  const scope3 = metrics.find(m => m.id === 'ENERGY_016' || m.name === 'Scope 3 GHG emissions');
+  const showStackedChart = filter.category === 'Energy & Emissions' && (scope1 || scope2 || scope3);
+
   return (
     <div className="space-y-8">
         {/* Filters */}
@@ -96,8 +103,17 @@ export const Overview: React.FC = () => {
         <h3 className="text-xl font-bold text-gray-900">Detailed Trends & Targets</h3>
 
         {/* Charts Section */}
-        <div className="space-y-12">
-            {sortedMetrics.map(metric => (
+        <div className="space-y-12 pb-8">
+            {sortedMetrics
+                .filter(metric => {
+                    // Exclude individual Scope 1, 2, 3 charts when showing stacked chart
+                    if (showStackedChart) {
+                        const scopeIds = ['ENERGY_010', 'ENERGY_013', 'ENERGY_016'];
+                        return !scopeIds.includes(metric.id);
+                    }
+                    return true;
+                })
+                .map(metric => (
                 <div key={metric.id + '-charts'} className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     <div className="lg:col-span-2">
                         <TrendChart metric={metric} />
@@ -107,6 +123,13 @@ export const Overview: React.FC = () => {
                     </div>
                 </div>
             ))}
+            
+            {/* Stacked Emissions Chart - Only show for Energy & Emissions at the bottom */}
+            {showStackedChart && (
+                <div className="pb-4">
+                    <StackedEmissionsChart scope1={scope1} scope2={scope2} scope3={scope3} />
+                </div>
+            )}
         </div>
     </div>
   );

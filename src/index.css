@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Prevent scroll chaining to fix scrolling bug */
+main {
+  overscroll-behavior: contain;
+}
+
 /* Custom Leaflet popup styling */
 .custom-popup .leaflet-popup-content-wrapper {
   border-radius: 8px;
