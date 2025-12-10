@@ -44,10 +44,9 @@ export const MetricCard: React.FC<MetricCardProps> = ({ metric, className }) => 
   
   const formatValue = (val: number) => val.toLocaleString(undefined, { maximumFractionDigits: 2 });
 
-  // Highlight card in red if current value is 0 (data not accurate/decision not made)
-  const isZeroValue = currentValue === 0;
-  const cardBorderColor = isZeroValue ? "border-red-500 border-2" : "border-gray-100";
-  const cardBgColor = isZeroValue ? "bg-red-50" : "bg-white";
+  // No red flags on summary cards - only show normal styling
+  const cardBorderColor = "border-gray-100";
+  const cardBgColor = "bg-white";
 
   return (
     <div className={twMerge(`p-6 rounded-xl shadow-sm border ${cardBorderColor} ${cardBgColor}`, className)}>
@@ -61,14 +60,9 @@ export const MetricCard: React.FC<MetricCardProps> = ({ metric, className }) => 
         </span>
       </div>
       
-      {isZeroValue && (
-        <div className="mb-2 px-2 py-1 bg-red-100 border border-red-300 rounded text-xs text-red-700 font-medium">
-          ⚠️ Data not available - Decision pending
-        </div>
-      )}
       <div className="flex items-end gap-4">
         <div>
-            <div className={clsx("text-3xl font-bold", isZeroValue ? "text-red-600" : "text-gray-900")}>
+            <div className="text-3xl font-bold text-gray-900">
               {formatValue(currentValue)}
             </div>
             <div className="flex items-center mt-1 gap-1">

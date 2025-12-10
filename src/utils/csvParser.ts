@@ -1,10 +1,17 @@
 import Papa from 'papaparse';
 import type { ESGMetric } from '../types/esg';
 
-const parseNumber = (value: string): number => {
-  if (!value) return 0;
+const parseNumber = (value: string): number | null => {
+  if (!value || value.trim() === '') return null;
   if (typeof value === 'number') return value;
-  return parseFloat(value.replace(/,/g, ''));
+  
+  // Skip non-numeric values like "TBD", "Data collection methodologies under development", etc.
+  const cleanValue = value.trim().replace(/,/g, '');
+  if (cleanValue === 'TBD' || cleanValue === 'NA' || isNaN(parseFloat(cleanValue))) {
+    return null;
+  }
+  
+  return parseFloat(cleanValue);
 };
 
 const parseTarget = (targetStr: string, baseline: number): number | undefined => {
@@ -71,31 +78,34 @@ export const parseESGData = async (relativePath: string): Promise<ESGMetric[]> =
 
             // Handle Global Data
             if (region === 'Global') {
-              // Update baseline if year matches baseline year (2022)
-              if (year === 2022) {
-                metric.baselineValue = value;
-                
-                // Parse targets
-                const target2030Str = row['Future (2030 Target)'];
-                if (target2030Str && !metric.targets[2030]) {
-                   const targetValue = parseTarget(target2030Str, value);
-                   if (targetValue !== undefined) {
-                     metric.targets[2030] = {
-                       value: targetValue,
-                       label: target2030Str
-                     };
-                   }
+              // Only process if we have a valid value
+              if (value !== null) {
+                // Update baseline if year matches baseline year (2022)
+                if (year === 2022) {
+                  metric.baselineValue = value;
+                  
+                  // Parse targets
+                  const target2030Str = row['Future (2030 Target)'];
+                  if (target2030Str && !metric.targets[2030]) {
+                     const targetValue = parseTarget(target2030Str, value);
+                     if (targetValue !== undefined) {
+                       metric.targets[2030] = {
+                         value: targetValue,
+                         label: target2030Str
+                       };
+                     }
+                  }
                 }
-              }
 
-              metric.dataPoints.push({
-                year,
-                value,
-                note: row['Data Quality Note'],
-              });
+                metric.dataPoints.push({
+                  year,
+                  value,
+                  note: row['Data Quality Note'],
+                });
+              }
             } else {
                // Handle Regional Data (store 2024 values)
-               if (year === 2024) {
+               if (year === 2024 && value !== null) {
                  metric.regions[region] = value;
                }
             }

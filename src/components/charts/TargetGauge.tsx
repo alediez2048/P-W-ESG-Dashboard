@@ -11,14 +11,13 @@ export const TargetGauge: React.FC<TargetGaugeProps> = ({ metric }) => {
   const current = metric.dataPoints[metric.dataPoints.length - 1]?.value || 0;
   const baseline = metric.baselineValue;
 
-  // Highlight gauge in red if current value is 0 (data not accurate/decision not made)
-  const isZeroValue = current === 0;
-  const gaugeBorderColor = isZeroValue ? "border-red-500 border-2" : "border-gray-100";
-  const gaugeBgColor = isZeroValue ? "bg-red-50" : "bg-white";
+  // No flags - normal styling only
+  const gaugeBorderColor = "border-gray-100";
+  const gaugeBgColor = "bg-white";
 
   if (!target2030 || !baseline) {
       return (
-          <div className={`p-6 rounded-xl shadow-sm border ${gaugeBorderColor} ${gaugeBgColor} h-full flex items-center justify-center`}>
+          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 h-full flex items-center justify-center">
               <p className="text-gray-400 text-sm">No target data available</p>
           </div>
       );
@@ -49,13 +48,8 @@ export const TargetGauge: React.FC<TargetGaugeProps> = ({ metric }) => {
   const COLORS = ['#4f46e5', '#f3f4f6'];
 
   return (
-    <div className={`p-6 rounded-xl shadow-sm border ${gaugeBorderColor} ${gaugeBgColor} flex flex-col items-center justify-center h-full`}>
-      {isZeroValue && (
-        <div className="mb-2 px-2 py-1 bg-red-100 border border-red-300 rounded text-xs text-red-700 font-medium w-full">
-          ⚠️ Data not available - Decision pending
-        </div>
-      )}
-      <h3 className={isZeroValue ? "text-lg font-semibold text-red-600 mb-2 w-full text-left" : "text-lg font-semibold text-gray-900 mb-2 w-full text-left"}>
+    <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center justify-center h-full">
+      <h3 className="text-lg font-semibold text-gray-900 mb-2 w-full text-left">
         {metric.name}
       </h3>
       <p className="text-sm text-gray-500 mb-4 w-full text-left">Progress to 2030 Goal</p>
@@ -81,7 +75,7 @@ export const TargetGauge: React.FC<TargetGaugeProps> = ({ metric }) => {
             </PieChart>
         </ResponsiveContainer>
         <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-            <span className={isZeroValue ? "text-2xl font-bold text-red-600" : "text-2xl font-bold text-gray-900"}>
+            <span className="text-2xl font-bold text-gray-900">
               {Math.round(progress)}%
             </span>
             <span className="text-xs text-gray-500">Complete</span>
