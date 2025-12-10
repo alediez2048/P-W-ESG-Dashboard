@@ -17,10 +17,20 @@ const parseNumber = (value: string): number | null => {
 const parseTarget = (targetStr: string, baseline: number): number | undefined => {
   if (!targetStr || !baseline) return undefined;
   
-  const reductionMatch = targetStr.match(/(\d+(?:\.\d+)?)%\s*(?:energy\s*)?reduction/i);
+  // Match various formats: 
+  // - "60% reduction"
+  // - "60% Reduction from baseline"
+  // - "60% energy reduction from 2022 baseline"
+  // - "60% Reduction from baseline"
+  // The regex allows for optional "energy" and anything after "reduction"
+  const reductionMatch = targetStr.match(/(\d+(?:\.\d+)?)%\s*(?:energy\s*)?reduction[\s\w%]*/i);
   if (reductionMatch) {
     const percentage = parseFloat(reductionMatch[1]);
-    return baseline * (1 - percentage / 100);
+    // Calculate: baseline * (1 - percentage/100)
+    // Example 1: 41.48 * (1 - 60/100) = 41.48 * 0.4 = 16.592 M kBtu
+    // Example 2: 20,203 * (1 - 60/100) = 20,203 * 0.4 = 8,081.2 kBtu/person
+    const targetValue = baseline * (1 - percentage / 100);
+    return targetValue;
   }
   
   return undefined;
@@ -78,25 +88,39 @@ export const parseESGData = async (relativePath: string): Promise<ESGMetric[]> =
 
             // Handle Global Data
             if (region === 'Global') {
-              // Only process if we have a valid value
-              if (value !== null) {
-                // Update baseline if year matches baseline year (2022)
-                if (year === 2022) {
-                  metric.baselineValue = value;
-                  
-                  // Parse targets
-                  const target2030Str = row['Future (2030 Target)'];
-                  if (target2030Str && !metric.targets[2030]) {
-                     const targetValue = parseTarget(target2030Str, value);
-                     if (targetValue !== undefined) {
-                       metric.targets[2030] = {
-                         value: targetValue,
-                         label: target2030Str
-                       };
-                     }
+              // Update baseline if year matches baseline year (2022)
+              if (year === 2022 && value !== null) {
+                metric.baselineValue = value;
+                
+                // Parse targets from 2022 row's "Future (2030 Target)" column
+                const target2030Str = row['Future (2030 Target)'];
+                if (target2030Str && !metric.targets[2030]) {
+                   const targetValue = parseTarget(target2030Str, value);
+                   if (targetValue !== undefined) {
+                     metric.targets[2030] = {
+                       value: targetValue,
+                       label: target2030Str
+                     };
+                   }
+                }
+              }
+              
+              // Also check 2030 Target row for target information
+              if (year === 2030 && row['Value Type'] === 'Target') {
+                const target2030Str = row['Future (2030 Target)'] || row['Performance'];
+                if (target2030Str && metric.baselineValue > 0 && !metric.targets[2030]) {
+                  const targetValue = parseTarget(target2030Str, metric.baselineValue);
+                  if (targetValue !== undefined) {
+                    metric.targets[2030] = {
+                      value: targetValue,
+                      label: target2030Str
+                    };
                   }
                 }
-
+              }
+              
+              // Only add data points for actual values (not target rows)
+              if (value !== null && row['Value Type'] !== 'Target') {
                 metric.dataPoints.push({
                   year,
                   value,
@@ -104,12 +128,43 @@ export const parseESGData = async (relativePath: string): Promise<ESGMetric[]> =
                 });
               }
             } else {
-               // Handle Regional Data (store 2024 values)
-               if (year === 2024 && value !== null) {
-                 metric.regions[region] = value;
+               // Handle Regional Data
+               // For metrics with "per Region" in the name, each region is a separate metric
+               // Store their data as dataPoints so they can be displayed in charts
+               if (value !== null) {
+                 if (metric.name.includes('per Region')) {
+                   // Update metric name to include region for clarity
+                   if (!metric.name.includes(region)) {
+                     metric.name = `${metric.name} - ${region}`;
+                   }
+                   
+                   // Store as dataPoint (not just in regions object) so charts can display it
+                   if (row['Value Type'] !== 'Target') {
+                     metric.dataPoints.push({
+                       year,
+                       value,
+                       note: row['Data Quality Note'],
+                     });
+                     
+                     // Also update baseline if year is 2022
+                     if (year === 2022) {
+                       metric.baselineValue = value;
+                     }
+                   }
+                   
+                   // Also store in regions for regional breakdown views
+                   if (year === 2024) {
+                     metric.regions[region] = value;
+                   }
+                 } else {
+                   // For other metrics, only store 2024 regional values
+                   if (year === 2024) {
+                     metric.regions[region] = value;
+                   }
+                 }
                }
             }
-          });
+          }); // Close data.forEach
 
           // Sort dataPoints by year
           metricsMap.forEach((metric) => {

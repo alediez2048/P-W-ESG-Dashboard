@@ -80,14 +80,18 @@ export const Overview: React.FC = () => {
             <OfficeMap />
         )}
 
-        {/* KPI Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {sortedMetrics.map(metric => (
-                <MetricCard key={metric.id} metric={metric} />
-            ))}
-        </div>
+        {/* KPI Cards Grid - Hide for Energy & Emissions */}
+        {filter.category !== 'Energy & Emissions' && (
+            <>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {sortedMetrics.map(metric => (
+                        <MetricCard key={metric.id} metric={metric} />
+                    ))}
+                </div>
 
-        <div className="h-px bg-gray-200 my-8" />
+                <div className="h-px bg-gray-200 my-8" />
+            </>
+        )}
 
         <h3 className="text-xl font-bold text-gray-900">Detailed Trends & Targets</h3>
 
